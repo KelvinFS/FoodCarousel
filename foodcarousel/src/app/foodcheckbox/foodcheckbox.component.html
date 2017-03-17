@@ -1,0 +1,28 @@
+
+<div class="container">
+
+  <div class="row">
+    <div class="col-sm-10">
+      <div class="custom-checkbox">
+        <input type="checkbox" id="cb1">
+        <label for="cb1">Do you want some extra sliced ​​bacon ?</label>
+      </div>
+      <div class="custom-checkbox">
+        <input type="checkbox" id="cb2">
+        <label for="cb2">Extra Cheese ?</label>
+      </div>
+      <div class="custom-checkbox">
+        <input type="checkbox" id="cb3">
+        <label for="cb3">No Salad ?</label>
+      </div>
+    </div>
+	<div class="col-sm-2">
+		<button type="button" class="btn-lg btn-warning"
+        [(ngModel)]="singleModel" btnCheckbox
+        btnCheckboxTrue="1" btnCheckboxFalse="0">
+  			 <span class="glyphicon glyphicon-shopping-cart"> Order</span>
+		</button>
+    </div>
+  </div>
+
+</div>
